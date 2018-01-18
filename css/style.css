@@ -210,7 +210,7 @@ strong, small {
 }
 
 .showx {
-    opacity: 0.8;
+    opacity: 1;
     visibility: visible;
     z-index: 999;
 }
@@ -1381,7 +1381,7 @@ ul.info-list li strong {
 }
 
 #modal-close.close {
-	opacity: 0.9;
+	opacity: .9;
 	padding: 5px 15px;
 }
 
