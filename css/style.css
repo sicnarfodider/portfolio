@@ -1515,24 +1515,24 @@ ul.info-list li strong {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: -144px;
-        top: 60px;
+        left: 126px;
+        top: 125px;
     }
 
     .about-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 549px;
-        top: 14px;
+        left: 813px;
+        top: 82px;
     }
 
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 737px;
-        top: 380px;;
+        left: 1036px;
+        top: 414px;;
     }
 
     .blog-block {
@@ -1547,8 +1547,8 @@ ul.info-list li strong {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 1099px;
-        top: 136px;
+        left: 1393px;
+        top: 173px;
     }
 }
 
@@ -1606,43 +1606,76 @@ ul.info-list li strong {
 @media (min-width:981px) and (max-width:1024px) {
 
     .name-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: -190px;
-        top: 10px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 296px;
+        top: 18px;
+        width: 450px;
+        height: 450px;
     }
 
     .about-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 382px;
-        top: -150px;
-    }
-
-    .portfolio-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 577px;
-        top: 89px;
-    }
-
-    .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 772px;
-        top: 428px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 78px;
+        top: 368px;
+        height: 350px;
+        width: 350px;
     }
 
     .contact-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 365px;
-        top: 538px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 308px;
+        top: 632px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .portfolio-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 571px;
+        top: 401px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .name-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .about-block-container{
+        padding-left: 110px;
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .portfolio-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .contact-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        padding-left: 50px;
+        transform: rotate(41deg);
+    }
+
+    .social{
+        left: 35%;
+        bottom: 10%;
     }
 
     .service {
@@ -1693,14 +1726,6 @@ ul.info-list li strong {
         transform: rotate(-34deg);
         left: 577px;
         top: 89px;
-    }
-
-    .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 336px;
-        top: 548px;
     }
 
     .contact-block {
