@@ -215,6 +215,16 @@ strong, small {
     z-index: 999;
 }
 
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    max-width: 65px;
+    width: 10vmin;
+}
+
 .lowercase {
     text-transform: lowercase;
 }
@@ -1446,7 +1456,7 @@ ul.info-list li strong {
     color: #444;
     padding-bottom: 10px;
     border-bottom: 1px dashed #ddd;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
     font-weight: 700;
 }
 
