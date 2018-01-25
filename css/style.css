@@ -215,6 +215,16 @@ strong, small {
     z-index: 999;
 }
 
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    max-width: 65px;
+    width: 10vmin;
+}
+
 .lowercase {
     text-transform: lowercase;
 }
@@ -277,7 +287,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(../images/night.jpg) #444 50% 50%;
+    background: url(../images/bg.jpg) #444 50% 50%;
     background-size: cover;
 }
 
@@ -428,7 +438,6 @@ h2.menu-item:hover:after {
 
 .social {
     position: absolute;
-    bottom: 15%;
 }
 
 .social li {
@@ -482,6 +491,8 @@ h2.menu-item:hover:after {
 
 .sign {
     margin-top: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 ul.info-list {
@@ -1445,7 +1456,7 @@ ul.info-list li strong {
     color: #444;
     padding-bottom: 10px;
     border-bottom: 1px dashed #ddd;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
     font-weight: 700;
 }
 
@@ -1509,30 +1520,31 @@ ul.info-list li strong {
 	}
 }
 
+
 @media (min-width:1280px) and (max-width:1919px) {
 
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: -144px;
-        top: 60px;
+        left: 126px;
+        top: 125px;
     }
 
     .about-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 549px;
-        top: 14px;
+        left: 813px;
+        top: 82px;
     }
 
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 737px;
-        top: 380px;;
+        left: 1036px;
+        top: 414px;;
     }
 
     .blog-block {
@@ -1547,102 +1559,222 @@ ul.info-list li strong {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 1099px;
-        top: 136px;
+        left: 1393px;
+        top: 173px;
     }
 }
 
-@media (min-width:1025px) and (max-width:1280px) {
+@media (max-width:1550px) and (min-width:1323px)  {
+
+    .menu-block{
+        width: 350px;
+        height: 350px;
+    }
 
     .name-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: -200px;
-        top: -80px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 94px;
+        top: 124px;
     }
 
     .about-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 419px;
-        top: -160px;
-    		width:350px;
-    		height: 300px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 779px;
+        top: 88px;
     }
 
     .portfolio-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 586px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 745px;
+        top: 580px;
+    }
+
+
+    .contact-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 1008px;
+        top: 350px;
+    }
+
+    .name-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .about-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .portfolio-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .contact-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1280px) {
+
+    .menu-block{
+        width: 350px;
+        height: 350px;
+    }
+
+    .name-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: -154px;
+        top: 124px;
+    }
+
+    .about-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 533px;
         top: 88px;
-		width:350px;
-		height: 300px;
+    }
+
+    .portfolio-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 498px;
+        top: 580px;
     }
 
     .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
         left: 753px;
         top: 335px;
-		width:350px;
-		height: 300px;
     }
 
     .contact-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 900px;
-        top: -70px;
-		width:350px;
-		height: 300px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 762px;
+        top: 350px;
+    }
+
+    .name-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .about-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .portfolio-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .contact-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
     }
 }
 
 @media (min-width:981px) and (max-width:1024px) {
 
     .name-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: -190px;
-        top: 10px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 316px;
+        top: 18px;
+        width: 450px;
+        height: 450px;
     }
 
     .about-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 382px;
-        top: -150px;
-    }
-
-    .portfolio-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 577px;
-        top: 89px;
-    }
-
-    .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 772px;
-        top: 428px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 96px;
+        top: 368px;
+        height: 350px;
+        width: 350px;
     }
 
     .contact-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 365px;
-        top: 538px;
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 326px;
+        top: 632px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .portfolio-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 590px;
+        top: 401px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .name-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .about-block-container{
+        padding-left: 110px;
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .portfolio-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .contact-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        padding-left: 50px;
+        transform: rotate(41deg);
+    }
+
+    .social{
+        left: 35%;
+        bottom: 10%;
     }
 
     .service {
@@ -1671,7 +1803,7 @@ ul.info-list li strong {
 
 @media (min-width:768px) and (max-width:980px) {
 
-    .name-block {
+    /* .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
@@ -1695,14 +1827,6 @@ ul.info-list li strong {
         top: 89px;
     }
 
-    .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 336px;
-        top: 548px;
-    }
-
     .contact-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -1713,6 +1837,87 @@ ul.info-list li strong {
 
 	.project {
 		width: 50%;
+    } */
+
+    .name-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 316px;
+        top: 18px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .about-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 96px;
+        top: 368px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .contact-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 326px;
+        top: 632px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .portfolio-block {
+        -ms-transform: rotate(-41deg);
+        -webkit-transform: rotate(-41deg);
+        transform: rotate(-41deg);
+        left: 590px;
+        top: 401px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .name-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .about-block-container{
+        padding-left: 110px;
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .portfolio-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        transform: rotate(41deg);
+    }
+
+    .contact-block-container{
+        -ms-transform: rotate(41deg);
+        -webkit-transform: rotate(41deg);
+        padding-left: 50px;
+        transform: rotate(41deg);
+    }
+
+    .social{
+        left: 35%;
+        bottom: 10%;
+    }
+
+    .service {
+        width: 50%;
+    }
+
+    .skills .col-md-6 {
+        width: 100%;
     }
 }
 
@@ -1732,7 +1937,8 @@ ul.info-list li strong {
 
 @media (max-width:800px) and (orientation:landscape) {
 	.home {
-		background: url(../images/bg.jpg) #444 30% 30%;
+		background: url(../images/bg.jpg) #444;
+        background-size: cover;
 		overflow-y: scroll;
 	}
 
@@ -1804,7 +2010,7 @@ ul.info-list li strong {
 @media (max-width:800px) {
 
 	.home {
-		background: url(../images/bg.jpg) #444 30% 30%;
+		background: url(../images/bgmobile.jpg) #444 30% 30%;
         overflow-y: scroll;
 	}
 
