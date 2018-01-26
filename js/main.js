@@ -29,6 +29,8 @@ $('.portfolio-block, .menu-item').on('click', function() {
 	//Portfolio Modal
 	$('.open-project').on('click', function(){
 		var projectUrl = $(this).attr("page");
+
+
         $('.modal-container').load(projectUrl, function(result){
             $('#project-modal').modal({show: true})
         })
