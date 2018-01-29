@@ -29,8 +29,9 @@
 /* -------------------------
         0. standard
 ------------------------- */
+
 body {
-    font: 400 14px 'Raleway', sans-serif;
+    font: 400 14px 'Graduate', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
     color: #727272;
@@ -117,6 +118,13 @@ li{
     list-style-type: none;
 }
 
+figure{
+    text-align: center;
+}
+figure > img{
+    display: block;
+    margin: auto;
+}
 figurecaption{
     text-transform: uppercase;
 }
@@ -298,7 +306,7 @@ figurecaption{
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(../images/bg.jpg) #444 50% 50%;
+    background: url(../images/planet.png) #444 50% 50%;
     background-size: cover;
 }
 
@@ -1392,6 +1400,11 @@ ul.info-list li strong {
 ------------------------- */
 header{
     margin: 50px 0;
+    text-align: center;
+}
+
+.project-tools{
+    border-top : 2px solid #d33a3a;
 }
 
 
@@ -1416,6 +1429,10 @@ header{
 
 #close {
     font-size: 20px;
+}
+
+#project-modal{
+    background-image: url(../images/portfolio/bglue.png);
 }
 
 .inline-menu {
@@ -1956,7 +1973,7 @@ header{
 
 @media (max-width:800px) and (orientation:landscape) {
 	.home {
-		background: url(../images/bg.jpg) #444;
+		background: url(../images/planet.png) #444;
         background-size: cover;
 		overflow-y: scroll;
 	}
@@ -2029,7 +2046,7 @@ header{
 @media (max-width:800px) {
 
 	.home {
-		background: url(../images/bgmobile.jpg) #444 30% 30%;
+		background: url(../images/planetmobile.png) #444 30% 30%;
         overflow-y: scroll;
 	}
 
