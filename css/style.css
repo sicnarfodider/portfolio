@@ -26,12 +26,12 @@
 	9. RESPONSIVE
 
 -------------------------------------------------------------------*/
-
 /* -------------------------
         0. standard
 ------------------------- */
+
 body {
-    font: 400 14px 'Raleway', sans-serif;
+    font: 400 14px 'Graduate', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
     color: #727272;
@@ -98,7 +98,7 @@ h6 {
 }
 
 p {
-    margin: 0;
+    margin: 20px 0;
 }
 
 ul {
@@ -108,6 +108,25 @@ ul {
 
 strong, small {
     color: #444;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+figure{
+    text-align: center;
+}
+figure > img{
+    display: block;
+    margin: auto;
+}
+figurecaption{
+    text-transform: uppercase;
 }
 
 .btn {
@@ -287,7 +306,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(../images/bg.jpg) #444 50% 50%;
+    background: url(../images/planet.png) #444 50% 50%;
     background-size: cover;
 }
 
@@ -491,6 +510,7 @@ h2.menu-item:hover:after {
 
 .sign {
     margin-top: 30px;
+    margin-left: 65px;
     border-radius: 50%;
     border: 1px solid black;
 }
@@ -1378,6 +1398,16 @@ ul.info-list li strong {
 /* -------------------------
         8. CONTENT BLOCKS
 ------------------------- */
+header{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.project-tools{
+    border-top : 2px solid #d33a3a;
+}
+
+
 .inline-menu-container {
     background: #F1F3F6;
     position: fixed;
@@ -1389,6 +1419,7 @@ ul.info-list li strong {
 #post-modal .inline-menu-container,
 #project-modal .inline-menu-container {
 	height: 40px;
+    padding-right: 30px;
 }
 
 #modal-close.close {
@@ -1398,6 +1429,10 @@ ul.info-list li strong {
 
 #close {
     font-size: 20px;
+}
+
+#project-modal{
+    background-image: url(../images/portfolio/bglue.png);
 }
 
 .inline-menu {
@@ -1434,6 +1469,7 @@ ul.info-list li strong {
 #post-modal,
 #project-modal {
 	z-index: 99999;
+    padding: 0 20px;
 }
 
 .content {
@@ -1937,7 +1973,7 @@ ul.info-list li strong {
 
 @media (max-width:800px) and (orientation:landscape) {
 	.home {
-		background: url(../images/bg.jpg) #444;
+		background: url(../images/planet.png) #444;
         background-size: cover;
 		overflow-y: scroll;
 	}
@@ -2010,7 +2046,7 @@ ul.info-list li strong {
 @media (max-width:800px) {
 
 	.home {
-		background: url(../images/bgmobile.jpg) #444 30% 30%;
+		background: url(../images/planetmobile.png) #444 30% 30%;
         overflow-y: scroll;
 	}
 
