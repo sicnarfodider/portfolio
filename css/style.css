@@ -332,6 +332,7 @@ h2.menu-item {
     cursor: pointer;
     margin: 50px;
     font-size: 28px;
+    text-shadow: 1px 3px black;
 }
 
 .light h2.menu-item {
@@ -437,6 +438,7 @@ h2.menu-item:hover:after {
     color: #FFF;
     margin-bottom: 10px;
     text-transform: uppercase;
+    text-shadow: 1px 3px black;
 }
 
 .light .name-block-container h1,
@@ -2047,6 +2049,7 @@ header{
 
 	.home {
 		background: url(../images/planetmobile.png) #444 30% 30%;
+        background-size: cover;
         overflow-y: scroll;
 	}
 
