@@ -937,6 +937,10 @@ ul.info-list li strong {
     outline: none;
 }
 
+.modal-content{
+    padding-left: 15px;
+}
+
 .project-title h2 {
 	margin-bottom: 20px;
 }
